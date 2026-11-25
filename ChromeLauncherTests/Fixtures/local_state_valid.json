@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "info_cache": {
+      "Default": {
+        "name": "Personal",
+        "user_name": "person@example.com",
+        "gaia_name": "Person Example",
+        "gaia_picture_file_name": "Google Profile Picture.png",
+        "avatar_icon": "chrome://theme/IDR_PROFILE_AVATAR_26",
+        "is_using_default_avatar": false,
+        "is_using_default_name": false,
+        "profile_color_seed": 123456,
+        "default_avatar_fill_color": -14737376,
+        "unexpected_future_field": { "ignore": true }
+      },
+      "Profile 1": {
+        "name": "Work",
+        "is_using_default_avatar": true,
+        "is_using_default_name": false
+      },
+      "Profile 3": {
+        "name": "Stale",
+        "user_name": "stale@example.com"
+      },
+      "Guest Profile": {
+        "name": "Guest",
+        "is_ephemeral": true,
+        "user_name": "guest@example.com"
+      },
+      "Profile 2": {
+        "name": "Hidden",
+        "is_omitted_from_profile_list": true
+      },
+      "Profile 4": "not-an-object",
+      "Profile 5": {
+        "gaia_name": "Only Gaia"
+      },
+      "../Default": {
+        "name": "Unsafe"
+      }
+    },
+    "profiles_order": ["Profile 1", "Default", "Missing", "Profile 5"]
+  },
+  "os_crypt": {
+    "encrypted_key": "not-read-by-the-parser"
+  }
+}
